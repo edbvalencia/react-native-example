@@ -1,0 +1,18 @@
+ARG NODE_VERSION_BUILD=18.18.0
+ARG NODE_VERSION_RUNTIME=18.18.0-alpine
+
+FROM node:${NODE_VERSION_BUILD} as builder
+WORKDIR /usr/src/app
+COPY ./package*.json .
+RUN npm install --save-dev vite
+COPY . .
+RUN npm run build
+
+FROM node:${NODE_VERSION_RUNTIME}
+WORKDIR /usr/src/app
+COPY --from=builder /usr/src/app/dist /usr/src/app/dist
+COPY --from=builder /usr/src/app/package.json /usr/src/app/package.json
+RUN npm install 
+EXPOSE 4173
+
+CMD [ "npm", "run", "preview"]

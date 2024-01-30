@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "*"
+fastapi = "*"
+pylint = "*"
+python-decouple = "*"
+requests = "*"
+lxml = "*"
+langchain-openai = "*"
+tiktoken = "*"
+openai = "*"
+langchain = {extras = ["llms"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

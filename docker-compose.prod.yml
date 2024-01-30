@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+
+  backend:
+    depends_on:
+      - database
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.prod
+    ports:
+      - "8080:8080"
+
+  frontend:
+    depends_on:
+      - backend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.prod
+    ports:
+      - "4173:4173"
+
+  mongo:
+    image: mongo:latest
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: 'root'
+      MONGO_INITDB_ROOT_PASSWORD: 'root'
+      MONGO_INITDB_DATABASE: appdb
+    volumes:
+      - mongo_data:/data/db
+    ports:
+      - "27017:27017"
+
+volumes:
+  mongo_data:

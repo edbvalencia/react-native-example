@@ -1,0 +1,40 @@
+COOKIES = {
+    "bcookie": '"v=2&b99f9f88-3aab-4fa9-84e4-d067a96aaa80"',
+    "bscookie": '"v=1&20240126221914d6e0fbbd-6486-4dab-889c-81d5b6d9b793AQHHt5_SdZ1mSMxOu1EE0VLgWPXP2zNL"',
+    "g_state": '{"i_l":0}',
+    "fid": "AQFdQXL1qSVhUgAAAY1H2zJTQfW4_GOEupRJ9okyKc58MZDisrnvkdZ86B2_M6PAs8PmKkE1bnPVew",
+    "timezone": "America/Guayaquil",
+    "li_theme": "light",
+    "li_theme_set": "app",
+    "dfpfpt": "71fff7f7d6bc4e5c8802d2c835385cbe",
+    "li_rm": "AQFvt4tlBVYd2gAAAY1Qj6rBpmhlICjiOPG922LMXV19S21guMYFKLsK9vxNZpt1iEVvPS10IOqgRk2lDm0EWY3GbYyLvO2kf2pP5P_wXB03_M4Jx5KA67QP",
+    "visit": "v=1&M",
+    "li_at": "AQEDAUAPHGYBtDXmAAABjVCTzUQAAAGNdKBRRE4Ay6oBDxRNwP-OWLSESig2-snI8bw-aMaUuqoLm-y1MSk9KaFPKGMzFOVvMa0hCtfxzOcWAoYedBsgW_EbTEhxQFBHoVNQ8YeBSRsQuPTmeC01HE_i",
+    "liap": "true",
+    "JSESSIONID": '"ajax:2338206475006960530"',
+    "lang": "v=2&lang=es-es",
+    "lidc": '"b=TB34:s=T:r=T:a=T:p=T:g=4100:u=405:x=1:i=1706498681:t=1706551507:v=2:sig=AQGdKDm4hhYu9LFXNN4K4cfxN579TQSS"',
+    "fptctx2": "taBcrIH61PuCVH7eNCyH0J9Fjk1kZEyRnBbpUW3FKs%252fkPX%252bv2IXbISyt%252f%252fzPkaX4nX%252b0NbAEznIbUCWq4l%252fLXr%252b2Sqb3jNgN7NntK5Aai9EGFMf40DqScL5qcojDixNDtIXwNdGOvZ5A3Nt2GCecMuuuoN%252fq2K9iEKfO5xTG5gwl2kFQ5jDUYbO5jtN7NTtg2BanGcu%252bufilGqeLGbutYW6YtZY8gnF9yWo3n9zsXmfy4Dk4q0BndHdQWgySDMvSyhGQfigFrEek9zo49liHtcGRfvOvHY5Hw0pe7GtnXZDEji2xKivqZr9WeLyOXGZ5j6eGwT678tB2Ngbgfjxv1WP%252ffbILvelZ59RMl833gjI%253d",
+    "sdsc": "34%3A1%2C1706498803645%7EJOBS%2C0%7ESJOB%2C576707CMzRQysqYwrENzKFcvY98TCjRM4%3D",
+    "UserMatchHistory": "AQKKtUftRolkHwAAAY1TV3hj1gIQ3LBYVNy5uudzTjPOuPtJG4xbzTZ6aRjbLLW2-YO9qvIqiqfEyme87LpVRahnUAaHA6E1XthTJgdrWYHmHuF7KQ7Qj5jI3GRY2iOVySCqQnCTW7f7kfR8XIASQyePjDtuFkKElwWvdc2H5VYdiUat-sA48uaciyf4sYP3YpfymRL40dAY4Sk9XRqdZfb_VGnfaQu8PH7Q0SUlQ9DgpOlJWc0OJxLb3N_yJfgDOV0yuykjPRSe6MztqtrL7qksrnqPfcgViNcTTqHFpzSZ6TsD5qn-1vIdKoJ3wXdCKAzOYr5ohGXzyRLePJHx",
+}
+
+HEADERS = {
+    "authority": "www.linkedin.com",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "accept-language": "es;q=0.5",
+    "cache-control": "max-age=0",
+    "cookie": 'bcookie="v=2&b99f9f88-3aab-4fa9-84e4-d067a96aaa80"; bscookie="v=1&20240126221914d6e0fbbd-6486-4dab-889c-81d5b6d9b793AQHHt5_SdZ1mSMxOu1EE0VLgWPXP2zNL"; g_state={"i_l":0}; fid=AQFdQXL1qSVhUgAAAY1H2zJTQfW4_GOEupRJ9okyKc58MZDisrnvkdZ86B2_M6PAs8PmKkE1bnPVew; timezone=America/Guayaquil; li_theme=light; li_theme_set=app; dfpfpt=71fff7f7d6bc4e5c8802d2c835385cbe; li_rm=AQFvt4tlBVYd2gAAAY1Qj6rBpmhlICjiOPG922LMXV19S21guMYFKLsK9vxNZpt1iEVvPS10IOqgRk2lDm0EWY3GbYyLvO2kf2pP5P_wXB03_M4Jx5KA67QP; visit=v=1&M; li_at=AQEDAUAPHGYBtDXmAAABjVCTzUQAAAGNdKBRRE4Ay6oBDxRNwP-OWLSESig2-snI8bw-aMaUuqoLm-y1MSk9KaFPKGMzFOVvMa0hCtfxzOcWAoYedBsgW_EbTEhxQFBHoVNQ8YeBSRsQuPTmeC01HE_i; liap=true; JSESSIONID="ajax:2338206475006960530"; lang=v=2&lang=es-es; lidc="b=TB34:s=T:r=T:a=T:p=T:g=4100:u=405:x=1:i=1706498681:t=1706551507:v=2:sig=AQGdKDm4hhYu9LFXNN4K4cfxN579TQSS"; fptctx2=taBcrIH61PuCVH7eNCyH0J9Fjk1kZEyRnBbpUW3FKs%252fkPX%252bv2IXbISyt%252f%252fzPkaX4nX%252b0NbAEznIbUCWq4l%252fLXr%252b2Sqb3jNgN7NntK5Aai9EGFMf40DqScL5qcojDixNDtIXwNdGOvZ5A3Nt2GCecMuuuoN%252fq2K9iEKfO5xTG5gwl2kFQ5jDUYbO5jtN7NTtg2BanGcu%252bufilGqeLGbutYW6YtZY8gnF9yWo3n9zsXmfy4Dk4q0BndHdQWgySDMvSyhGQfigFrEek9zo49liHtcGRfvOvHY5Hw0pe7GtnXZDEji2xKivqZr9WeLyOXGZ5j6eGwT678tB2Ngbgfjxv1WP%252ffbILvelZ59RMl833gjI%253d; sdsc=34%3A1%2C1706498803645%7EJOBS%2C0%7ESJOB%2C576707CMzRQysqYwrENzKFcvY98TCjRM4%3D; UserMatchHistory=AQKKtUftRolkHwAAAY1TV3hj1gIQ3LBYVNy5uudzTjPOuPtJG4xbzTZ6aRjbLLW2-YO9qvIqiqfEyme87LpVRahnUAaHA6E1XthTJgdrWYHmHuF7KQ7Qj5jI3GRY2iOVySCqQnCTW7f7kfR8XIASQyePjDtuFkKElwWvdc2H5VYdiUat-sA48uaciyf4sYP3YpfymRL40dAY4Sk9XRqdZfb_VGnfaQu8PH7Q0SUlQ9DgpOlJWc0OJxLb3N_yJfgDOV0yuykjPRSe6MztqtrL7qksrnqPfcgViNcTTqHFpzSZ6TsD5qn-1vIdKoJ3wXdCKAzOYr5ohGXzyRLePJHx',
+    "sec-ch-ua": '"Brave";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Linux"',
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "sec-gpc": "1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+}
+
+REGEX_POST_EMPLEO = '//code[contains(text(), "fsd_jobPosting")]'
