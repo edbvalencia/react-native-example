@@ -9,7 +9,10 @@ function TrendCard({
 }) {
   return (
     <TouchableOpacity style={styles.cardContainer}>
-      <Image source={{ uri: image }} style={styles.heroImage} />
+      <Image
+        source={{ uri: `https://es.dotabuff.com/${image}` }}
+        style={styles.heroImage}
+      />
       <View style={styles.textContainer}>
         <Text style={styles.heroName}>{name}</Text>
         <Text>Winrate Inicial: {winrate_init}%</Text>

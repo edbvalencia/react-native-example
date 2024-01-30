@@ -9,20 +9,19 @@ import {
 } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
 
-const twitter = <Icon name={"twitter"} size={30} color={"black"} />;
-const facebook = <Icon name={"facebook"} size={30} color={"black"} />;
-const instagram = <Icon name={"instagram"} size={30} color={"black"} />;
-const linkedin = <Icon name={"pinterest"} size={30} color={"black"} />;
-const tiktok = <Icon name={"github"} size={30} color={"black"} />;
+const reddit = <Icon name={"reddit"} size={30} color={"black"} />;
+const twitch = <Icon name={"twitch"} size={30} color={"black"} />;
+const pinterest = <Icon name={"pinterest"} size={30} color={"black"} />;
+const github = <Icon name={"github"} size={30} color={"black"} />;
 
 const user = {
   avatar: "https://avatars.githubusercontent.com/u/127812245?v=4",
   coverPhoto:
     "https://media.licdn.com/dms/image/D4E16AQHPO-tH1neSYw/profile-displaybackgroundimage-shrink_350_1400/0/1695031951597?e=1712188800&v=beta&t=az4BbKr1ZFHG6xvDwAW8DyMapan-a_bcaet61wIJcZc",
   name: "Eduardo Valencia",
-  location: "Ciudad de México, México",
+  location: "Quito, Ecuador",
   description:
-    "Programador apasionado por la tecnología y el desarrollo de software.",
+    "Me gusta crear cosas, aprender y enseñar. Soy un apasionado de la tecnología y la educación.",
 };
 
 export default function UserProfile() {
@@ -45,29 +44,26 @@ export default function UserProfile() {
       </View>
       <View style={styles.buttonContainer}>
         <TouchableWithoutFeedback
-          onPress={() => Linking.openURL("https://facebook.com/")}
+          onPress={() => Linking.openURL("https://www.reddit.com/")}
         >
-          {facebook}
+          {reddit}
         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback
-          onPress={() => Linking.openURL("https://twitter.com/")}
+          onPress={() => Linking.openURL("https://www.twitch.tv/")}
         >
-          {twitter}
+          {twitch}
         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback
-          onPress={() => Linking.openURL("https://instagram.com/")}
+          onPress={() =>
+            Linking.openURL("https://www.pinterest.es/edbvalencia/")
+          }
         >
-          {instagram}
+          {pinterest}
         </TouchableWithoutFeedback>
         <TouchableWithoutFeedback
-          onPress={() => Linking.openURL("https://linkedin.com/")}
+          onPress={() => Linking.openURL("https://github.com/edbvalencia")}
         >
-          {linkedin}
-        </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback
-          onPress={() => Linking.openURL("https://tiktok.com/")}
-        >
-          {tiktok}
+          {github}
         </TouchableWithoutFeedback>
       </View>
     </View>
@@ -95,7 +91,7 @@ const styles = StyleSheet.create({
   },
   name: {
     marginTop: 15,
-    fontSize: 20,
+    fontSize: 22,
     fontWeight: "bold",
   },
   location: {
@@ -113,7 +109,8 @@ const styles = StyleSheet.create({
   buttonContainer: {
     flexDirection: "row",
     marginTop: 20,
-    width: "60%",
-    justifyContent: "space-between",
+    width: "100%",
+    gap: 24,
+    justifyContent: "center",
   },
 });
